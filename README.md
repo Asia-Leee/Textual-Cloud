@@ -13,6 +13,9 @@ conda activate zero
 ```
 
 ## Step 1: Obtaining Datasets
-### Download GZSL benchmark datasets: VGGSound-GZSL, ActivityNet-GZSL, and UCF-GZSL
-encoded by Cip&Clap: [ Cip&Clap](https://github.com/dkurzend/ClipClap-GZSL)
-encoded by C3D&VGGish  and SeLavi : [AVCA] (https://github.com/ExplainableML/AVCA-GZSL)
+### 1.Download GZSL benchmark datasets: VGGSound-GZSL, ActivityNet-GZSL, and UCF-GZSL
+encoded by Cip&Clap: [ Cip&Clap](https://github.com/dkurzend/ClipClap-GZSL)  
+
+encoded by C3D&VGGish  and SeLavi : [AVCA](https://github.com/ExplainableML/AVCA-GZSL)
+### 2.Download Textual Cloud
+
