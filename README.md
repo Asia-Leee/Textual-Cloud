@@ -1,6 +1,6 @@
 # Sight, Sound, and Sense: Unfolding Textual Clouds for Audio-Visual Generalized Zero-Shot Learning
 
-
+This repository is the official implementation.
 <p align="center">
   <img src="fig.jpg" alt="Framework" width="80%">
 </p>
