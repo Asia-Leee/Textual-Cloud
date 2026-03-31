@@ -6,7 +6,11 @@ This repository is the official implementation.
 </p>
 
 ## Requirements
-(这里可以接着写你的环境依赖，比如需要安装哪些 Python 包...)
+We recommend using **Conda** to manage your environment:
+```bash
+conda env create -f environment.yml
+conda activate zero
+```
 
-## Training
+## Step 1
 (这里写你的训练代码指令...)
