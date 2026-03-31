@@ -12,5 +12,7 @@ conda env create -f environment.yml
 conda activate zero
 ```
 
-## Step 1
-(这里写你的训练代码指令...)
+## Step 1: Obtaining Datasets
+### Download GZSL benchmark datasets: VGGSound-GZSL, ActivityNet-GZSL, and UCF-GZSL
+encoded by Cip&Clap: [ Cip&Clap](https://github.com/dkurzend/ClipClap-GZSL)
+encoded by C3D&VGGish  and SeLavi : [AVCA] (https://github.com/ExplainableML/AVCA-GZSL)
