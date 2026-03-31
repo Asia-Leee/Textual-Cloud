@@ -1,0 +1,55 @@
+#self setting
+log_dir: ''
+exp_name: ''
+run: 'all' # ['all', 'stage-1', 'stage-2', 'eval']
+load_path_stage_B:
+load_path_stage_A:
+
+# training
+bs: 64
+n_batches: 300
+epochs_stage1: 15
+epochs_stage2: -1
+lr: 0.1
+eval_bs: 64
+optimizer: adam
+weight_decay: 1e-5
+lr_scheduler: cosine
+best_model_criterion: score   # 'loss' or 'score'
+num_workers: 0
+AV_coefficient: 0.1
+context_coefficient: 0.1
+
+# dataset settings
+dataset_name: VGGSound #AudioSetZSL", "VGGSound", "UCF", "ActivityNet"
+data_dir: " "
+feature_extraction_method: cls_features_non_averaged
+zero_shot_split: cls_split
+
+batch_seqlen_test: max
+batch_seqlen_test_maxlen: 300
+batch_seqlen_test_trim: center
+batch_seqlen_train: max
+batch_seqlen_train_maxlen: 60
+batch_seqlen_train_trim: random
+
+# loss functions
+rec_loss: true
+reg_loss: true
+cross_entropy_loss: true
+
+# general
+distance_fn: L2Loss
+device: 'cuda'
+seed:
+modality: both
+
+# model
+hidden_size: 512
+
+#textual transformer model
+input_dim: 512
+nhead: 8
+dim_feedforward: 2048
+num_layers: 1
+
