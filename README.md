@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="这里填你的图片路径，例如 img/framework.png" alt="Framework" width="80%">
+  <img src="fig.jpg" alt="Framework" width="80%">
 </p>
 
 ## Requirements
