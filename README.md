@@ -145,7 +145,6 @@ Our fully trained model weights are available for download [here](https://drive.
 When loading these pre-trained weights for evaluation or inference, please ensure that your runtime arguments and dataset configurations match those saved in the `.pkl` file. 
 
 ##  Project Structure
-
 ```text
 ├── config/              # Configuration parameters and settings
 ├── dataset_all/         # Dataset loading and data processing scripts
