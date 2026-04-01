@@ -1,5 +1,5 @@
 #self setting
-log_dir: ''
+log_dir: 'expriment_results'
 exp_name: ''
 run: 'all' # ['all', 'stage-1', 'stage-2', 'eval']
 load_path_stage_B:
