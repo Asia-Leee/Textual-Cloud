@@ -122,22 +122,8 @@ We provide two ways to evaluate the model's performance: **Automatic Evaluation*
 ### 1. Automatic Evaluation
 If you want the model to automatically evaluate its performance on the test set during the training process, simply set the `--run` argument to `all`.
 ### 2.Manual Evaluation
-For manual evaluation run the following command:
-```angular2html
-python get_evaluation.py \
-    --load_path_stage_A  "" \
-    --load_path_stage_B "" \
-    --dataset_name VGGSound \
-    --data_dir "" \
-    --exp_name eval \
-```
-```angular2html
-arguments:
---load_path_stage_A will indicate to the path that contains the network for stage 1
---load_path_stage_B will indicate to the path that contains the network for stage 2
---dataset_name {VGGSound, UCF, ActivityNet} will indicate the name of the dataset
---data_dir points to the location where the dataset is stored
-```
+
+
 ## Model Weights
 
 Our fully trained model weights are available for download [here](https://drive.google.com/file/d/1jcgnBVD09qgPBzxhpw9-Jd0-Zf2ZyYLL/view?usp=drive_link). 
