@@ -123,7 +123,7 @@ We provide two ways to evaluate the model's performance: **Automatic Evaluation*
 If you want the model to automatically evaluate its performance on the test set during the training process, simply set the `--run` argument to `all`.
 ### 2.Manual Evaluation
 For manual evaluation run the following command:
-```
+```bash
 python get_evaluation.py \
     --load_path_stage_A  "" \
     --load_path_stage_B "" \
