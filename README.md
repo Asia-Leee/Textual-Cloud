@@ -140,7 +140,7 @@ arguments:
 ```
 
 ##  Model Weights
-Our fully trained model weights are available for download [here](https://drive.google.com/file/d/1jcgnBVD09qgPBzxhpw9-Jd0-Zf2ZyYLL/view?usp=drive_link)). 
+Our fully trained model weights are available for download [here](https://drive.google.com/file/d/1jcgnBVD09qgPBzxhpw9-Jd0-Zf2ZyYLL/view?usp=drive_link). 
 
 When loading these pre-trained weights for evaluation or inference, please ensure that your runtime arguments and dataset configurations match those saved in the `.pkl` file. 
 
