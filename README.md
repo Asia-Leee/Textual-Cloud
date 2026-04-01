@@ -49,14 +49,14 @@ Please place the textual_cloud into the `./data/` directory. Meanwhile, remember
 `dataset_all/VGGSound_ZSL.py`, `dataset_all/ActivityNet_ZSL.py`, `dataset_all/UCF_ZSL.py` to match your local environment.
 ## Step 2: Training
 
-### 1. Quick Start
+### Option 1. Quick Start
 To train the model on the VGGSound-GZSL dataset, you can simply run the provided shell script:
 ```bash
 bash run_VGGSound.sh
 ```
 (Note: You can similarly run scripts for other datasets like `run_ActivityNet.sh` or `run_UCF.sh`)
 
-### 2. Manual Training
+### Option 2. Manual Training
 You can execute `main.py` with custom arguments on VGGSound-GZSL:
 ```bash
 python main.py \
