@@ -34,6 +34,11 @@ def main():
         "audio": "Generate exactly one (1) single sentence that directly describe the typical sounds or auditory environment associated with the action '{concept}'. If the action is usually quiet, describe the ambient noise.",
         "context": "Generate exactly one (1) single sentence that directly explain what the human action '{concept}' involves and its primary purpose or context."
     }
+    prompt_templates_ActivityNet = {
+        "visual": "Generate exactly one (1) single sentence that directly describe the visual sequence of the human activity '{concept}'. Focus on dynamic body movements, objects being manipulated, and the typical scene.",
+        "audio": "Generate exactly one (1) single sentence that directly describe the typical sounds generated during the activity '{concept}'. Focus on noise from objects, human vocalizations, and the ambient environment.",
+        "context": "Generate exactly one (1) single sentence that directly explain the definition, broader context, and primary purpose of the activity '{concept}'."
+}
     prompt_templates=prompt_templates_VGGSound
 
 
