@@ -1,6 +1,8 @@
 # Sight, Sound, and Sense: Unfolding Textual Clouds for Audio-Visual Generalized Zero-Shot Learning
 
 This repository is the official implementation.
+
+The supplementary material is available [here](https://github.com/Asia-Leee/Textual-Cloud/releases/tag/supplementary-v1).
 <p align="center">
   <img src="fig.jpg" alt="Framework" width="80%">
 </p>
